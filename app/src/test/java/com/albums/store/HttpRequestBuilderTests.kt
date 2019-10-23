@@ -1,5 +1,7 @@
 package com.albums.store
 
+import com.albums.cleanarchitecture.store.networkadapter.IRequestEncoder
+import com.albums.cleanarchitecture.store.networkadapter.IRequestValidator
 import com.nhaarman.mockito_kotlin.*
 import org.junit.Assert
 import org.junit.Test

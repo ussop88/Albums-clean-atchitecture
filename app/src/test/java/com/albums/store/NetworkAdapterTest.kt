@@ -25,7 +25,7 @@ class NetworkAdapterTest {
             )
         whenever(builder.buildRequest(hostname)).thenReturn(HttpRequest(hostname))
 
-        networkAdapter.send(hostname, completionFailure = mock(), completionSuccess = mock())
+        networkAdapter.send(hostname, completionFailure = {}, completionSuccess = {})
 
         verify(network).request(any(), any(), any(), any())
     }
@@ -75,10 +75,10 @@ class NetworkAdapterTest {
             )
         ).doAnswer {
             completionSuccess.invoke(models)
+            verify(completionSuccess).invoke(models)
         }
         networkAdapter.send(hostname, completionSuccess = completionSuccess, completionFailure = completionFailure)
 
-        verify(completionSuccess).invoke(models)
         verify(completionFailure, never()).invoke(any())
     }
 
@@ -110,11 +110,11 @@ class NetworkAdapterTest {
             )
         ).doAnswer {
             completionFailure.invoke(notFoundError)
+            verify(completionFailure).invoke(any())
         }
         networkAdapter.send(hostname, completionFailure = completionFailure, completionSuccess = completionSuccess)
 
         verify(completionSuccess, never()).invoke(any())
-        verify(completionFailure).invoke(any())
     }
 
 
