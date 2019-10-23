@@ -1,0 +1,11 @@
+
+rkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ßªæÁ
+wkotlin:S1186	"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ÏôóÓùÿÿÿÿ
+rkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(èîíÂ
+Îkotlin:S100	"±Rename function "test a store that contains available resources when user asks for model's resources it should get resources" to match the regular expression ^[a-z][a-zA-Z0-9]*$(ÏôóÓùÿÿÿÿ
+½kotlin:S100"¥Rename function "test a store not registered to adapter when user asks for registration it should register to it" to match the regular expression ^[a-z][a-zA-Z0-9]*$(ßªæÁ
+wkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ßº³Şúÿÿÿÿ
+­kotlin:S100"•Rename function "test a store when user asks for model's resources it should get model's adapter" to match the regular expression ^[a-z][a-zA-Z0-9]*$(èîíÂ
+³kotlin:S100"–Rename function "test a store when user asks for registration to adapter it should register to it" to match the regular expression ^[a-z][a-zA-Z0-9]*$(ßº³Şúÿÿÿÿ
+¹kotlin:S100"¡Rename function "test a store without available resources when user asks for resources it should get failure" to match the regular expression ^[a-z][a-zA-Z0-9]*$(ŸÛú
+rkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ŸÛú

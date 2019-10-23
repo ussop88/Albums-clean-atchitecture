@@ -1,0 +1,9 @@
+
+rkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(Äñ™›
+»kotlin:S100"£Rename function "test a NetworkAdapterRegistry when user asks to register an adapter it should should store it" to match the regular expression ^[a-z][a-zA-Z0-9]*$(Äñ™›
+rkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(©Öÿò
+Ëkotlin:S100"³Rename function "test a NetworkAdapterRegistry when user asks to register an adapter that already exists it should override it" to match the regular expression ^[a-z][a-zA-Z0-9]*$(©Öÿò
+wkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(¥ˆ‘ƒùÿÿÿÿ
+Ñkotlin:S100"´Rename function "test a NetworkAdapterRegistry that contains a model's adapter when user asks for resources it should return it" to match the regular expression ^[a-z][a-zA-Z0-9]*$(¥ˆ‘ƒùÿÿÿÿ
+wkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(š¤ð¢üÿÿÿÿ
+êkotlin:S100"ÍRename function "test a NetworkAdapterRegistry not containing model's adapter when user asks for resources it should return default REST network adapter" to match the regular expression ^[a-z][a-zA-Z0-9]*$(š¤ð¢üÿÿÿÿ

@@ -1,0 +1,3 @@
+package com.albums.cleanarchitecture.store.networkadapter
+
+interface IIRequestValidator

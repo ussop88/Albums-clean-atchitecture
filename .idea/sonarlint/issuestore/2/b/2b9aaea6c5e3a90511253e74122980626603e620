@@ -1,0 +1,11 @@
+
+Bkotlin:S125"Remove this commented out code.(Ï‰â–øÿÿÿÿ8¡¬ÜìŞ-
+Bkotlin:S125 "Remove this commented out code.(Ï‰â–øÿÿÿÿ8ßÅºìŞ-
+wkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(©†áÔøÿÿÿÿ
+¸kotlin:S100"›Rename function "test a repository when a resource is requested then it should immediately be returned" to match the regular expression ^[a-z][a-zA-Z0-9]*$(›¤Öèúÿÿÿÿ
+Ãkotlin:S100+"«Rename function "test a repository when a resource is requested for the first time then it should create a default one" to match the regular expression ^[a-z][a-zA-Z0-9]*$(Æçéœ
+=kotlin:S125,"Remove this commented out code.(×¿àá8ŞäºìŞ-
+­kotlin:S100"Rename function "test a repository when all services fail it should send failure with error" to match the regular expression ^[a-z][a-zA-Z0-9]*$(©†áÔøÿÿÿÿ
+Ókotlin:S100"¶Rename function "test a repository when a user ask for resource it should ask database first if not available ask network service" to match the regular expression ^[a-z][a-zA-Z0-9]*$(¾ˆÉ…şÿÿÿÿ
+wkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(İˆ…Öÿÿÿÿÿ
+¾kotlin:S100"¡Rename function "test a repository when one of the services get success it should send success with response" to match the regular expression ^[a-z][a-zA-Z0-9]*$(İˆ…Öÿÿÿÿÿ

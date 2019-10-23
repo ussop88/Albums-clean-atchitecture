@@ -1,0 +1,5 @@
+
+­kotlin:S100"•Rename function "test Encoder and there is invalid data when it encodes it should notify failure" to match the regular expression ^[a-z][a-zA-Z0-9]*$(ñœé¶
+rkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ñœé¶
+wkotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(×šÙÂùÿÿÿÿ
+²kotlin:S100"•Rename function "test Encoder and there is a valid data when it encodes it should notify success" to match the regular expression ^[a-z][a-zA-Z0-9]*$(×šÙÂùÿÿÿÿ

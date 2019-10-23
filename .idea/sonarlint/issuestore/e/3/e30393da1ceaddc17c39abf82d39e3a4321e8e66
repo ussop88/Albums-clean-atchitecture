@@ -1,0 +1,5 @@
+
+6kotlin:S125"Remove this commented out code.(šÚâ½
+6kotlin:S125"Remove this commented out code.(šÚâ½
+Äkotlin:S100"§Rename function "test RestModelUriTests and there is a model without path when write uri it should return rest uri" to match the regular expression ^[a-z][a-zA-Z0-9]*$(Õ¸¬Œşÿÿÿÿ
+¼kotlin:S100"¤Rename function "test RestModelUriTests and there is a model with path when write uri it should return rest uri" to match the regular expression ^[a-z][a-zA-Z0-9]*$(Ò–—
