@@ -1,7 +1,6 @@
 package com.albums.cleanarchitecture.presentation
 
 import com.albums.cleanarchitecture.interactors.Interactor
-import com.albums.cleanarchitecture.presentation.controlers.IShowAlbumListControler
 import com.albums.cleanarchitecture.presentation.controlers.ShowAlbumListController
 import com.albums.cleanarchitecture.presentation.presenters.ShowAlbumsPresenter
 import com.albums.cleanarchitecture.presentation.view.AlbumsView

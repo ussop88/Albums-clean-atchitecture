@@ -1,8 +1,0 @@
-
-tkotlin:S1192"\Define a constant instead of duplicating this literal "https://static.leboncoin.fr" 6 times.(¼«¾Â
-Íkotlin:S1008"µRename function "test a HttpRequestBuilder and there is valid url body and headers when user asks for resources it build request" to match the regular expression ^[a-z][a-zA-Z0-9]*$(èĞ
-Ïkotlin:S100
-"²Rename function "test a HttpRequestBuilder and there is a valid hostname when user asks for resources it should build request" to match the regular expression ^[a-z][a-zA-Z0-9]*$(– ò×şÿÿÿÿ
-Êkotlin:S100+"­Rename function "test a HttpRequestBuilder and there is body encoding problem when user asks for resources it send error" to match the regular expression ^[a-z][a-zA-Z0-9]*$(”æù¹ûÿÿÿÿ
-Ãkotlin:S100"«Rename function "test a HttpRequestBuilder and there is a valid path when user asks for resources it should make a url" to match the regular expression ^[a-z][a-zA-Z0-9]*$(ÎğñÄ
-Çkotlin:S100 "ªRename function "test a HttpRequestBuilder and there is invalid url when user asks for resources it should send error" to match the regular expression ^[a-z][a-zA-Z0-9]*$(î¨¦Ûşÿÿÿÿ

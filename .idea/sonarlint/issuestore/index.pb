@@ -13,8 +13,6 @@ q
 Aapp/src/test/java/com/albums/store/NetworkAdapterRegistryTests.kt,e\d\edb61cfae64683c3672f4133533ed213dff2ff04
 m
 =app/src/test/java/com/albums/store/HttpRequestBuilderTests.kt,8\4\84c0c2241c89a0e04188c35fc3f5ba4960c86bce
-_
-/app/src/test/java/com/albums/store/StoreTest.kt,7\2\72ce9b83830b1105cf8339dce49da8b410b00401
 e
 5app/src/test/java/com/albums/store/RepositoryTests.kt,2\b\2b9aaea6c5e3a90511253e74122980626603e620
 `

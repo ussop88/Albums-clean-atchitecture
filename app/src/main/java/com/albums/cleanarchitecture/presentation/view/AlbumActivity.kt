@@ -15,7 +15,10 @@ class AlbumActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_layout)
-        AlbumFactory.make(view).fetchAlbums()
     }
 
+    override fun onResume() {
+        super.onResume()
+        AlbumFactory.make(view).fetchAlbums()
+    }
 }
