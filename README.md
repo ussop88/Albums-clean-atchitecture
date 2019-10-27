@@ -1,4 +1,4 @@
-# Albums [![Build status](https://travis-ci.com/ussop88/Store.svg?token=pfVX8mrZkS1tx62SHHpz&branch=master)](https://travis-ci.com/ussop88/Albums-clean-atchitecture)
+# Albums [![Build status](https://travis-ci.com/ussop88/Albums-clean-atchitecture.svg?branch=master)](https://travis-ci.com/ussop88/Albums-clean-atchitecture)
 
 A project that implements clean architecture.
 
