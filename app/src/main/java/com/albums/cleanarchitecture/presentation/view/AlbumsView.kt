@@ -31,12 +31,16 @@ class AlbumsView @JvmOverloads constructor(
 
     @MainThread
     override fun showAlbums(albums: List<IModel>) {
-        initAdapter(albums)
+        if(::adapter.isInitialized) {
+            adapter.notifyDataSetChanged(albums)
+        } else {
+            initAdapter(albums)
+        }
     }
 
     private fun initAdapter(albums: List<IModel>) {
         adapter = AlbumAdapter(albums)
-        albumList.layoutManager = LinearLayoutManager(context)
+        albumList.layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
         albumList.adapter = adapter
     }
 

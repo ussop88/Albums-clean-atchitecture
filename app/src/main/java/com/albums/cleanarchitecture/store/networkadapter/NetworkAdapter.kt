@@ -7,7 +7,6 @@ import com.albums.cleanarchitecture.store.data.ExceptionStore
 import com.albums.cleanarchitecture.store.data.NetworkServiceError
 
 class NetworkAdapter(
-    private val model: IModel,
     private val builder: IHttpRequestBuilder,
     private val network: NetworkService
 ) : INetworkAdapter {
@@ -21,7 +20,7 @@ class NetworkAdapter(
         Thread(Runnable {
             try {
                 val request = builder.buildRequest(hostname, path, headers, body)
-                network.request(request, model, { success ->
+                network.request(request, { success ->
                     completionSuccess.invoke(success)
                 }) { error ->
                     completionFailure.invoke(error)

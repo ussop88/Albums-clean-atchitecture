@@ -19,8 +19,7 @@ class AlbumFactory {
 
             val store = Store(
                 NetworkAdapter(
-                    Model(1, 34, "", "", "")
-                    , HttpRequestBuilder(
+                    HttpRequestBuilder(
                         RequestValidator(),
                         RequestEncoder()
                     ), OkHttpAdapter()

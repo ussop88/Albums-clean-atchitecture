@@ -1,5 +1,6 @@
 package com.albums.store
 
+import com.albums.cleanarchitecture.store.data.Model
 import com.albums.cleanarchitecture.store.persistenceadapter.LocalPersistentDatabase
 import com.albums.cleanarchitecture.store.data.NotFoundError
 import com.albums.cleanarchitecture.store.data.NetworkServiceError
@@ -30,7 +31,7 @@ class StoreTests {
 
     @Test
     fun `test a store when local persistence contains data it should get response`() {
-        val albums = arrayListOf(Album(0, 3, "sweet dreams"))
+        val albums = arrayListOf(Model(0, 3, "sweet dreams", "", ""))
         val localPersistentStore: LocalPersistentDatabase = mock()
         val store = Store(mock(), localPersistentStore)
 
@@ -44,7 +45,7 @@ class StoreTests {
     @Test
     fun `test a store when network service get success it should get response`() {
         val localPersistentStore: LocalPersistentDatabase = mock()
-        val albums = arrayListOf(Album(0, 3, "sweet dreams"))
+        val albums = arrayListOf(Model(0, 3, "sweet dreams","", ""))
         val networkAdapter: INetworkAdapter = mock()
         val completionSuccess = mock<(List<IModel>) -> Unit>()
         val completionFailure = mock<(NetworkServiceError) -> Unit>()
@@ -66,7 +67,7 @@ class StoreTests {
     fun `test a store when all services fail it should send failure with error`() {
         val localPersistentStore: LocalPersistentDatabase = mock()
         val notFoundError = NotFoundError(404, "")
-        val albums = arrayListOf(Album(0, 3, "sweet dreams"))
+        val albums = arrayListOf(Model(0, 3, "sweet dreams", "", ""))
         val networkAdapter: INetworkAdapter = mock()
         val completionSuccess = mock<(List<IModel>) -> Unit>()
         val completionFailure = mock<(NetworkServiceError) -> Unit>()
@@ -93,11 +94,4 @@ class StoreTests {
 
 }
 
-data class Album(
-    override var albumId: Int,
-    override var id: Int,
-    override var title: String,
-    override var url: String = "",
-    override var thumbnailUrl: String = ""
-) : IModel
 

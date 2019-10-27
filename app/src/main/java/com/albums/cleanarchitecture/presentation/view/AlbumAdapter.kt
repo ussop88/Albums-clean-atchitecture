@@ -26,4 +26,9 @@ class AlbumAdapter(var list: List<IModel>) : RecyclerView.Adapter<AlbumViewHolde
 
     override fun getItemCount(): Int = list.size
 
+    fun notifyDataSetChanged(list: List<IModel>) {
+        this.list = list
+        notifyDataSetChanged()
+    }
+
 }

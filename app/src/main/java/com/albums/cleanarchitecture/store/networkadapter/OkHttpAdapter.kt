@@ -21,7 +21,6 @@ class OkHttpAdapter : NetworkService {
 
     override fun request(
         request: HttpRequest,
-        model: IModel,
         completionSuccess: (List<IModel>) -> Unit,
         completionFailure: (NetworkServiceError) -> Unit
     ) {
